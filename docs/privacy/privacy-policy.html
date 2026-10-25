@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 校园智能助手（草案 v0.1）</title>
+<style>
+  :root{--ink:#1a1d21;--ink2:#5a636e;--line:#e3e6ea;--warn:#b7791f;--warnbg:#fdf4e3}
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-size:15px;line-height:1.8;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 22px 72px}
+  .draft{background:var(--warnbg);border:1px solid #ecd9b0;border-radius:8px;padding:12px 16px;
+    font-size:13.5px;color:var(--warn);margin-bottom:26px}
+  h1{font-size:24px;margin:0 0 4px}
+  .meta{color:var(--ink2);font-size:13px;margin-bottom:26px}
+  h2{font-size:16px;margin:30px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  p,li{color:#2c3138}
+  ul{padding-left:22px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin:12px 0}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f4f6f8;font-weight:600;font-size:13px}
+  .ph{background:#fff6d6;padding:1px 4px;border-radius:3px;font-weight:600}
+  code{background:#eef0f3;padding:1px 5px;border-radius:4px;font-size:12.5px;
+    font-family:ui-monospace,Consolas,monospace}
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);
+    color:#8a939e;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="draft">
+  <b>草案 v0.1 · 未填写主体信息前不得对外发布。</b><br>
+  文中 <span class="ph">【…】</span> 为必须由应用主办主体填写的真实信息。占位符未替换即发布，属虚假备案材料。
+  本页需与代码实际数据流一致；上架前须用真机抓包逐条核对第 2 节。
+</div>
+
+<h1>隐私政策</h1>
+<div class="meta">
+  应用名称：<span class="ph">【应用名称】</span>（以下称"本应用"）　版本：<span class="ph">【版本号】</span><br>
+  运营主体：<span class="ph">【主体全称】</span>　生效日期：<span class="ph">【YYYY-MM-DD】</span>
+</div>
+
+<p>本应用由 <span class="ph">【主体全称】</span> 提供。我们仅在实现下述功能所必需的范围内处理你的信息，不收集与服务无关的个人数据。</p>
+
+<h2>1. 适用范围</h2>
+<p>本政策适用于本应用提供的校园信息查询与办事指引服务，包括通知、课程与考试、报修、失物招领、活动五类场景。</p>
+
+<h2>2. 我们收集的信息</h2>
+<table>
+  <tr><th style="width:26%">信息类型</th><th style="width:34%">具体内容</th><th>收集方式与目的</th></tr>
+  <tr><td>课程与考试日程</td><td>你主动导入的课表、考试时间、地点</td><td>由你导入 CSV/ICS 文件生成，用于本地展示与提醒；<b>不上传服务器</b></td></tr>
+  <tr><td>报修信息</td><td>报修地点、问题描述、可选图片、联系方式</td><td>由你填写并<b>确认后</b>提交，用于生成工单与回执查询</td></tr>
+  <tr><td>失物与活动信息</td><td>你主动发布的失物描述、报名信息</td><td>由你填写并确认后提交</td></tr>
+  <tr><td>对话内容</td><td>你输入的问题文本</td><td>用于检索与回答；历史记录保存在本机，可在应用内清除</td></tr>
+  <tr><td>偏好设置</td><td>界面偏好、默认项</td><td>仅保存在本机</td></tr>
+  <tr><td>账号标识</td><td><span class="ph">【如启用登录：账号标识及认证信息】</span></td><td>用于区分数据权限与隔离不同用户的数据</td></tr>
+</table>
+
+<p><b>我们不收集</b>：精确位置、通讯录、短信、通话记录、相册（除你主动选择上传的图片）、剪贴板、设备广告标识符。</p>
+
+<h2>3. 收集与使用目的</h2>
+<ul>
+  <li>提供信息检索与办事指引，展示与你身份和范围相关的信息；</li>
+  <li>生成并提交你确认过的办事草稿，返回可查询的回执；</li>
+  <li>在你的设备上提供日程提醒与服务卡片；</li>
+  <li>保障服务安全：识别异常请求、防止重复提交与越权访问。</li>
+</ul>
+<p>我们不会将上述信息用于广告投放、用户画像或与本服务无关的用途。</p>
+
+<h2>4. 存储位置与保存期限</h2>
+<ul>
+  <li><b>本机数据</b>（日程、偏好、对话历史）：保存在你的设备上，卸载应用即删除，也可在应用内手动清除。</li>
+  <li><b>服务端数据</b>（报修工单、发布内容）：存储于中华人民共和国境内的服务器，保存期限为 <span class="ph">【保存期限，如：工单办结后 6 个月】</span>，到期或你申请删除后予以删除。</li>
+  <li>我们不会将数据转移至境外。</li>
+</ul>
+
+<h2>5. 第三方共享</h2>
+<table>
+  <tr><th style="width:30%">接收方</th><th>共享内容与目的</th></tr>
+  <tr><td><span class="ph">【云服务提供方名称】</span></td><td>提供服务器、存储与网络服务，按合同约定处理数据</td></tr>
+  <tr><td><span class="ph">【模型服务提供方名称】</span></td><td>在你使用智能问答时，接收<b>经脱敏的问题文本与最少必要证据</b>，用于组织回答；不接收你的账号凭据与联系方式</td></tr>
+  <tr><td>业务受理方（<span class="ph">【如后勤、保卫处等】</span>）</td><td>仅在你确认提交后，接收办理所必需的工单字段</td></tr>
+</table>
+<p>除上述情形及法律法规要求外，我们不会向第三方提供你的个人信息。</p>
+
+<h2>6. 你的权利</h2>
+<ul>
+  <li><b>查询与更正</b>：在应用内查看并修改你提交的内容；</li>
+  <li><b>删除</b>：清除本机历史与偏好；申请删除服务端工单与发布内容；</li>
+  <li><b>撤回同意</b>：在系统设置中关闭通知/提醒权限，或在应用内关闭相关功能；撤回不影响此前已进行的处理；</li>
+  <li><b>注销</b>：<span class="ph">【如启用账号：提供注销入口及处理时限】</span>。</li>
+</ul>
+<p>行使上述权利可通过第 10 节联系方式提出，我们将在 15 个工作日内答复。</p>
+
+<h2>7. 未成年人保护</h2>
+<p>本应用面向高校师生。若你未满 14 周岁，请在监护人陪同下阅读本政策并使用本应用；我们不会主动收集未成年人的敏感个人信息。</p>
+
+<h2>8. 安全措施</h2>
+<ul>
+  <li>全站 HTTPS 传输，服务端不对外暴露内部端口；</li>
+  <li>写操作需经你确认，并以确认凭据与幂等键约束，防止重复提交；</li>
+  <li>按身份与数据域隔离，越权访问一律拒绝；</li>
+  <li>日志脱敏，不记录口令与完整联系方式。</li>
+</ul>
+
+<h2>9. 智能问答说明</h2>
+<p>本应用的问答结果<b>基于已授权的信息条目检索生成</b>，回答中标注来源与更新时间。回答不构成业务受理结果；办事结果以服务端返回的回执为准。</p>
+<p><span class="ph">【如启用生成式模型组织回答，须补充：生成合成内容标识方式、算法备案号、举报入口】</span></p>
+
+<h2>10. 联系我们</h2>
+<p>个人信息保护相关问询、投诉与权利行使：<br>
+邮箱：<span class="ph">【联系邮箱】</span>　电话：<span class="ph">【联系电话】</span><br>
+我们设有个人信息保护负责人：<span class="ph">【姓名/岗位】</span></p>
+
+<h2>11. 政策变更</h2>
+<p>本政策发生重大变更时，我们会在应用内显著位置提示，并在必要时重新取得你的同意。</p>
+
+<h2>12. 备案信息</h2>
+<p>APP 备案号：<span class="ph">【备案号】</span>　<br>
+ICP 备案号：<span class="ph">【ICP 备案号】</span></p>
+
+<footer>
+  草案 v0.1 · 2026-10-25 生成　依据：本项目实际数据流（见 <code>docs/备案与上架材料包_20261025.md</code> 第 4 节）。<br>
+  发布前必须完成：主体信息填写、与真机抓包逐条核对、法务或主管方确认。本文件不构成法律意见。
+</footer>
+
+</div>
+</body>
+</html>
