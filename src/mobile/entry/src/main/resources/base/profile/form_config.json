@@ -1,0 +1,3 @@
+{
+  "forms": [{ "name": "CampusService", "displayName": "$string:app_name", "description": "$string:module_desc", "src": "./ets/widget/pages/CampusCard.ets", "uiSyntax": "arkts", "window": { "designWidth": 360, "autoDesignWidth": true }, "colorMode": "auto", "isDefault": true, "updateEnabled": true, "scheduledUpdateTime": "08:00", "updateDuration": 0, "defaultDimension": "2*2", "supportDimensions": ["2*2"], "formConfigAbility": "ability://EntryAbility" }]
+}

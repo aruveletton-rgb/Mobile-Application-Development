@@ -1,0 +1,9 @@
+* text=auto
+
+*.ps1 text eol=crlf
+*.ets text eol=lf
+*.ts  text eol=lf
+*.json5 text eol=lf
+*.png binary
+*.hap binary
+*.app binary

@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "0.1.0",
+  "description": "Campus assistant ArkUI demo",
+  "main": "",
+  "author": "campus-demo",
+  "license": "MIT",
+  "dependencies": {}
+}

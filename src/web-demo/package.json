@@ -1,0 +1,24 @@
+{
+  "name": "campus-assistant-web-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/business.test.ts",
+    "check:mobile-source": "node scripts/check-mobile.mjs"
+  },
+  "devDependencies": {
+    "json5": "^2.2.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@types/papaparse": "^5.5.2",
+    "lucide": "^1.55.0",
+    "papaparse": "^5.7.0"
+  }
+}

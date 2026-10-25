@@ -1,0 +1,8 @@
+{
+  "string": [
+    { "name": "app_name", "value": "校园智能助手" },
+    { "name": "module_desc", "value": "Campus assistant entry" },
+    { "name": "entry_desc", "value": "Campus assistant main ability" },
+    { "name": "reminder_reason", "value": "在本机为您主动选择的课程或考试创建日程提醒" }
+  ]
+}
